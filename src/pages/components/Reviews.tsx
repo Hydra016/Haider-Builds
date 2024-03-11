@@ -1,7 +1,6 @@
 import React from "react";
 import Review from "./Review";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 import "swiper/css";
 import { reviews } from "../libs/Reviews";
 
@@ -17,10 +16,9 @@ const Reviews = () => {
       <div className="md:col-span-7">
         
         <Swiper
-          spaceBetween={50}
-          slidesPerView={1}
+          spaceBetween={20}
+          slidesPerView={1.5}
           loop={true}
-          modules={[Autoplay]}
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,

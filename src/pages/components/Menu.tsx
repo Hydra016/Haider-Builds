@@ -24,39 +24,19 @@ const Menu = ({ setMenu, menu }: Props) => {
       </div>
       <div className="flex mt-20 flex-col text-primary-color  h-full">
         <div className="flex flex-col">
-          <Link
-            onClick={() => setMenu(false)}
-            className="text-5xl font-extrabold mb-3"
-            to="home"
-          >
+          <Link onClick={() => setMenu(false)} className="text-5xl font-extrabold mb-3" to="home">
             Home
           </Link>
-          <Link
-            onClick={() => setMenu(false)}
-            className="text-5xl font-extrabold mb-3"
-            to="services"
-          >
+          <Link onClick={() => setMenu(false)} className="text-5xl font-extrabold mb-3" to="services">
             Services
           </Link>
-          <Link
-            onClick={() => setMenu(false)}
-            className="text-5xl font-extrabold mb-3"
-            to="projects"
-          >
+          <Link onClick={() => setMenu(false)} className="text-5xl font-extrabold mb-3" to="projects">
             Projects
           </Link>
-          <Link
-            onClick={() => setMenu(false)}
-            className="text-5xl font-extrabold mb-3"
-            to="testimonials"
-          >
+          <Link onClick={() => setMenu(false)} className="text-5xl font-extrabold mb-3" to="testimonials">
             Testimonials
           </Link>
-          <Link
-            onClick={() => setMenu(false)}
-            to="contact"
-            className="text-5xl font-extrabold mb-3"
-          >
+          <Link onClick={() => setMenu(false)} to="contact" className="text-5xl font-extrabold mb-3">
             Contact
           </Link>
         </div>

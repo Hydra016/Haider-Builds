@@ -24,13 +24,7 @@ export default function Home() {
         suppressHydrationWarning
         className="bg-primary-clolor items-stretch min-h-screen overflow-hidden"
       >
-        <Fade triggerOnce cascade>
-          <div className="h-screen flex flex-col justify-between">
-            <Navbar />
-            <Landing />
-            <Skills />
-          </div>
-        </Fade>
+        <Landing />
         <Slide delay={5} triggerOnce>
           <Services />
         </Slide>
