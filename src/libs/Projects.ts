@@ -2,7 +2,7 @@ import { Project } from "@/types/Project";
 
 export const projects: Project[] = [
   {
-    image: "/Manemp.png",
+    image: "/manemp.png",
     title: "Manemp",
     content:
       "We help e-commerce brands navigate the ever changing landscape of digital marketing with best-in-class creative, personalized.",
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     github: "https://github.com/Hydra016/Talk-A-Tive",
   },
   {
-    image: "/vocabevoyage.png",
+    image: "/VocabeVoyage.png",
     title: "Vocab Voyage",
     content:
       "We help e-commerce brands navigate the ever changing landscape of digital marketing with best-in-class creative, personalized.",
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     github: "https://github.com/Hydra016/house-app",
   },
   {
-    image: "/Dispo.png",
+    image: "/dispo.png",
     title: "Dispo Clone",
     content:
       "We help e-commerce brands navigate the ever changing landscape of digital marketing with best-in-class creative, personalized.",

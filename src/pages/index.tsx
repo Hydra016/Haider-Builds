@@ -1,9 +1,7 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import Providers from "./providers";
-import Navbar from "../components/Navbar";
 import Landing from "../components/Landing";
-import Skills from "../components/Skills";
 import Services from "../components/Services";
 import Projects from "../components/Projects";
 import Reviews from "../components/Reviews";
