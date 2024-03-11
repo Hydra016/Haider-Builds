@@ -11,14 +11,14 @@ export const reviews: Review[] = [
   {
     name: "Elvin Jafarov",
     content:
-      "Absolutely thrilled with the frontend development by Haider. The website not only looks visually stunning but also functions seamlessly. Haider exceeded my expectations, capturing the essence of my vision. Responsive, creative, and highly professional – I couldn't be happier with the result!",
+      "Thrilled with Haider's frontend work—visually stunning and seamlessly functional. Exceeded expectations, capturing my vision with responsiveness and creativity. Highly professional, couldn't be happier!",
     image: "/review.png",
     flag: "/azerbaijan.png",
   },
   {
     name: "Shokhzhakhon",
     content:
-      "Incredible backend development work by Haider. The website's functionality is top-notch, thanks to Haider's expertise. They translated complex requirements into a smooth, efficient backend that powers the entire site flawlessly. Haider delivered beyond expectations, and I'm extremely satisfied with the backend performance. Highly recommend for anyone seeking a skilled and reliable developer.",
+      "Haider's backend development is exceptional—translating complex requirements into a flawless, efficient system. Delivered beyond expectations, highly recommend for top-notch performance.",
     image: "/review.png",
     flag: "/uzbekistan.png",
   },

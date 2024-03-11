@@ -16,7 +16,7 @@ const Review = ({ review }: Props) => {
           <p className="font-black text-4xl ">{review.name}</p>
           <img src={review.flag} className="w-10" />
         </div>
-        <p className="mt-5 ">{review.content}</p>
+        <p className="mt-5 md:text-base text-xs">{review.content}</p>
       </div>
     </div>
   );
