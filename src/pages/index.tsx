@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Inter } from "next/font/google";
 import Providers from "./providers";
 import Landing from "../components/Landing";
@@ -15,6 +15,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const notify = () => toast("Message sent");
+  const notifyError = () => toast("Please fill all the fields");
+  const [err, setErr] = useState(false);
 
   return (
     <Providers>

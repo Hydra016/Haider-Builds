@@ -35,10 +35,10 @@ const SingleProject = ({ project }: Props) => {
         <div className="absolute top-0 p-10 flex flex-col justify-between w-full h-full">
           <div>
             <p className="md:text-7xl font-black md:mb-5">{project.title}</p>
-            <p className="md:text-3xl font-black">{project.content}</p>
+            <p className={`text-xs md:text-base font-black`}>{project.content}</p>
           </div>
           <div>
-            <div className="mb-3 md:text-xl">
+            <div className="mb-3 md:text-lg">
             <span>Built with: </span>{project.techStack.map(tech => <span className="capitalize">{tech}, </span>)}
             </div>
             <div className="flex">

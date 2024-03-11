@@ -116,8 +116,7 @@
   .review-img {
     position: absolute;
     top: 60%;
-    left: 45%;
-    z-index: -1;
+    left: 75%;
   }
   
   .contact-btn {

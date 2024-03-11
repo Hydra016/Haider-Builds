@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../libs/Button";
 import Navbar from "./Navbar";
 import Skills from "./Skills";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import Link from "next/link";
 
 const Landing = () => {
   return (
@@ -31,9 +33,18 @@ const Landing = () => {
               My goal is to collaborate with clients, leveraging my skills and
               experience, to bring their innovative concepts to reality.
             </div>
-            <div className="mt-10">
-              <Button title="About Me" location="/" />
-            </div>
+            <Link
+              href={
+                "https://drive.google.com/file/d/1sN5S1QPORuh49rF5NaWz5F7YFsSLdS3m/view?usp=sharing"
+              }
+              target="_blank"
+              className="mt-10"
+            >
+              <Button
+                title="My CV"
+                icon={<FaExternalLinkAlt size={15} className="ml-5" />}
+              />
+            </Link>
           </div>
         </div>
       </div>

@@ -16,6 +16,11 @@ const Contact = ({ notify }: Props) => {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
+    if(!details.name || !details.message || !details.email) {
+
+      return;
+    }
+    
     setLoading(true);
     try {
       const res = await sendContactForm(details);
