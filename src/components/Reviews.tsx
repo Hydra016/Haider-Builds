@@ -26,7 +26,7 @@ const Reviews = () => {
         >
           {reviews.map((review, i) => (
             <SwiperSlide key={i}>
-              <Review review={review} />
+              {review && <Review review={review} />}
             </SwiperSlide>
           ))}
         </Swiper>

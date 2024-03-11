@@ -110,7 +110,7 @@ const Projects = () => {
           }`}
         >
           <div className="md:grid grid-cols-3 gap-4">
-            {newProjects.slice(0, shownProjects).map((project) => (
+            {projects && newProjects.slice(0, shownProjects).map((project) => (
               <SingleProject key={project.title} project={project} />
             ))}
           </div>
