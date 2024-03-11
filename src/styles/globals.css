@@ -1,33 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --secondary-color: #1E1E1E;
+    --primary-color: #101113;
+    --primary-text-color: #fff;
+    --secondary-text-color: #A6A001;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+* {
+    font-family: "Truculenta" !important;
+}
+
+.btn {
+    position: relative;
+    width: 130px;
+    cursor: pointer;
+}
+
+.btn-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-circle {
+    background-color: var(--secondary-text-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.btn:hover .btn-circle {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn-loading .btn-circle {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary-text-color);
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.menu-opened {
+    -webkit-animation: slideIn 0.5s forwards;
+    -moz-animation: slideIn 0.5s forwards;
+    animation: slideIn 0.5s forwards;
+}
+
+.menu-opened-out {
+    animation: slideOut 0.5s forwards;
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.selected {
+    background-color: #A6A001;
+    transition: all 0.5s ease-in-out;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .project-img-container:hover {
+    background: linear-gradient(to bottom, #1a1a1a, #000000);
+    transition: all ease-in-out 0.3s !important;
+    
   }
-}
+
+  .project-img {
+    transition: background ease-in-out 0.3s !important;
+  }
+  
+  .review-img {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+
+  .contact-btn {
+    margin-left: 110px;
+    margin-top: 20px;
+  }
