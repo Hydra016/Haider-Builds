@@ -7,7 +7,7 @@ interface Props {
   title: string;
   location?: string;
   action?: () => void;
-  loading: boolean;
+  loading?: boolean;
 }
 
 const Button = ({ title, location, action, loading }: Props) => {
