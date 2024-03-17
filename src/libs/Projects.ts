@@ -184,4 +184,16 @@ export const projects: Project[] = [
     techStack: ["react native", "firebase", "native base"],
     github: "https://github.com/Hydra016/Software-Engineering-Project",
   },
+  {
+    image: "/clipster.png",
+    title: "Clipster",
+    content:
+      "AI powered study assistant which generate questions based on the user specific study materials. just upload the text or you pdf book and the AI will generate questions for you to answer!",
+    type: "web",
+    subtype: "react",
+    size: "small",
+    techStack: ["nextJS", "typescript", "bun", "openAI"],
+    github: "https://github.com/Zav141DJacob/hack4ai-clipster",
+    deployed: "https://hack4ai-clipster.vercel.app/intro",
+  },
 ];
