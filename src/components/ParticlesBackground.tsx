@@ -8,6 +8,7 @@ interface Props {
 
 const ParticlesComponent = ({ id }: Props) => {
   const [init, setInit] = useState(false);
+
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
@@ -91,7 +92,7 @@ const ParticlesComponent = ({ id }: Props) => {
     []
   );
 
-  return <Particles id={id} init={particlesLoaded} options={options} />;
+  return <Particles id={id} options={options as any} />;
 };
 
 export default ParticlesComponent;
