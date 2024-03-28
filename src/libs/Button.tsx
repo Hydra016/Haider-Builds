@@ -1,7 +1,6 @@
 import { Link } from "react-scroll";
 import React, { ReactElement } from "react";
 import { FaChevronRight } from "react-icons/fa";
-import { PiSpinner } from "react-icons/pi";
 import { TailSpin } from "react-loader-spinner";
 
 interface Props {

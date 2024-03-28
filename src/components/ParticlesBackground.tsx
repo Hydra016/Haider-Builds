@@ -4,11 +4,10 @@ import { loadSlim } from "@tsparticles/slim";
 
 interface Props {
   id: string;
+  setInit: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const ParticlesComponent = ({ id }: Props) => {
-  const [init, setInit] = useState(false);
-
+const ParticlesComponent = ({ id, setInit }: Props) => {
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
