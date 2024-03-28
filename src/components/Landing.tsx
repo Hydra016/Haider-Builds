@@ -4,11 +4,13 @@ import Navbar from "./Navbar";
 import Skills from "./Skills";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
+import ParticlesBackground from "./ParticlesBackground";
 
 const Landing = () => {
   return (
     <div className="h-screen flex flex-col justify-between">
       <Navbar />
+      <ParticlesBackground id="particles" />
       <div className="flex flex-col justify-between md:mt-0 mt-5">
         <div className="md:w-2/5 md:px-20 px-5 h-full flex items-center">
           <div className="flex flex-col">

@@ -196,4 +196,28 @@ export const projects: Project[] = [
     github: "https://github.com/Zav141DJacob/hack4ai-clipster",
     deployed: "https://hack4ai-clipster.vercel.app/intro",
   },
+  {
+    image: "/Edurio.png",
+    title: "Edurio",
+    content:
+      "Edurio helps users to create custom forms easily!, In the initial release the users are limited to create a single form with 2 types of questions i.e. multiple choice and open text.",
+    type: "web",
+    subtype: "vue",
+    size: "small",
+    techStack: ["Vue", "typescript"],
+    github: "https://github.com/Hydra016/Edurio-task",
+    deployed: "https://edurio-task.vercel.app/#/",
+  },
+  {
+    image: "/Spencer.png",
+    title: "Spencer",
+    content:
+      "A Blog website which helps you create, read, update and delete your blogs!",
+    type: "web",
+    subtype: "vue",
+    size: "large",
+    techStack: ["Vue", "typescript", "vue-material"],
+    github: "https://github.com/Hydra016/Spencer",
+    deployed: "https://spencer-steel.vercel.app/",
+  },
 ];
