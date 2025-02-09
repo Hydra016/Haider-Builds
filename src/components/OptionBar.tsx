@@ -8,7 +8,7 @@ interface Props {
 
 const OptionBar = ({ option, setOption, setShownProjects }: Props) => {
   return (
-    <div className="flex bg-secondary-color w-full md:py-5 md:px-10 rounded-xl justify-between items-center font-bold">
+    <div className="flex bg-secondary-color bg-[#1a1a1d] w-full md:py-5 md:px-10 rounded-xl justify-between items-center font-bold">
       <div
         className={`cursor-pointer md:px-10 py-2 px-5 rounded-xl ${
           option === "all" && "selected"

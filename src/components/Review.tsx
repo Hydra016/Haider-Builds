@@ -7,7 +7,7 @@ interface Props {
 
 const Review = ({ review }: Props) => {
   return (
-    <div className="relative flex flex-col-reverse md:grid grid-cols-7 gap-4 bg-secondary-color p-5 rounded-xl hover:cursor-grab active:cursor-grabbing h-80">
+    <div className="bg-[#1a1a1d] relative flex flex-col-reverse md:grid grid-cols-7 gap-4 bg-secondary-color p-5 rounded-xl hover:cursor-grab active:cursor-grabbing h-80">
       <div className="review-img hidden md:block">
         <img src="/Vector.png" className="w-28" />
       </div>

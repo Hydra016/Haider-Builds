@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-secondary-color w-full bg-secondary-color items-center">
+    <div className="bg-secondary-color bg-[#27272a] w-full bg-secondary-color items-center">
       <div className="grid grid-cols-2 md:flex justify-between md:px-20 px-5 py-5 md:py-8 md:mt-10">
         <div className="md:mb-0 mb-20">
           <div className="text-xl md:text-3xl font-black">

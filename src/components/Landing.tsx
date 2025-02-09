@@ -25,7 +25,7 @@ const Landing = ({ setInit }: Props) => {
           <div className="flex flex-col">
             <div className="md:text-6xl text-5xl font-black">Hey There,</div>
             <div className="md:text-8xl text-2xl font-black mt-3">
-              I'M <span className="text-secondary-text-color">HAIDER</span>
+              I'M <span className="text-secondary-text-color text-[#a6a001]">HAIDER</span>
             </div>
             <div className="text-3xl md:text-5xl font-black mt-3">
               A{" "}

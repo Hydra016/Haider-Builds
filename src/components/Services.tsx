@@ -14,7 +14,7 @@ const Services = () => {
       <div className="grid col-span-8">
         <div className="grid md:grid-cols-3 gap-4">
           {services.map((service, i) => (
-            <div key={i} className="bg-secondary-color p-5 rounded-xl">
+            <div key={i} className="bg-[#1a1a1d] bg-secondary-color p-5 rounded-xl">
               <div>
                 <img src={service.icon} className="md:w-20 w-10" />
               </div>
