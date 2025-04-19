@@ -2,6 +2,107 @@ import { Project } from "@/types/Project";
 
 export const projects: Project[] = [
   {
+    image: "/khana.png",
+    title: "Khana AI",
+    content:
+      "AN AI powered recipe generator which helps you generate recipes based on the ingredients you have at home. Just enter the ingredients and the AI will generate a recipe for you!",
+    type: "web",
+    subtype: "react",
+    size: "large",
+    techStack: [
+      "react",
+      "Supabase",
+      "Open AI",
+      "Shadcn",
+      "tailwind CSS",
+    ],
+    github: "https://github.com/Hydra016/Khana-Ai",
+    deployed: "https://khana-xi.vercel.app/",
+  },
+  {
+    image: "/tweaklify.png",
+    title: "Tweaklify",
+    content:
+      "Tweaklify is a chrome extension which makes dev tools easier to use. It helps you to tweak the css of any website and see the changes in real time without changing the css from devtools, just use simple inputs and tweak the css of any website!",
+    type: "web",
+    subtype: "react",
+    size: "small",
+    techStack: ["React", "Chrome Extension"],
+    github: "https://github.com/Hydra016/Tweaklify",
+    deployed: "https://tweaklify.vercel.app/",
+  },
+  {
+    image: "/clipster.png",
+    title: "Clipster",
+    content:
+      "AI powered study assistant which generate questions based on the user specific study materials. just upload the text or you pdf book and the AI will generate questions for you to answer!",
+    type: "web",
+    subtype: "react",
+    size: "small",
+    techStack: ["nextJS", "typescript", "bun", "openAI"],
+    github: "https://github.com/Zav141DJacob/hack4ai-clipster",
+    deployed: "https://hack4ai-clipster.vercel.app/intro",
+  },
+  {
+    image: "/visualizeit.png",
+    title: "Visualize It",
+    content:
+      "A lightweight version of canva which helps you create amazing graphics and posters. Visualize it is a great tool for designers and non-designers alike. It has a lot of features like drag and drop, object creation, text editing, etc.",
+    type: "web",
+    subtype: "react",
+    size: "large",
+    techStack: [
+      "react",
+      "fabric js",
+      "Shadcn",
+      "tailwind CSS",
+    ],
+    github: "https://github.com/Hydra016/Visualizeit",
+    deployed: "https://visualizeit-ten.vercel.app/",
+  },
+  {
+    image: "/ifctroll.png",
+    title: "IFC Troll",
+    content:
+      "A web app that was built in 48 hours for a hackathon, it helps converrting ifc files to real 3d models and then detects the connections in the model and identifies different connections.",
+    type: "web",
+    subtype: "react",
+    size: "large",
+    techStack: [
+      "react",
+      "web ifc viewer",
+      "Shadcn",
+      "tailwind CSS",
+      "python"
+    ],
+    github: "https://github.com/Zav141DJacob/ifc-troll",
+    deployed: "https://ifctroll.vercel.app/",
+  },
+  {
+    image: "/pathLabs.png",
+    title: "Path Labs",
+    content:
+      "Built with tensorflow!, enough for you to think there is machine learning involved. Pathlabs helps patients to check the percentage they are proned to heart attack. It has amazing UI and a great potential to be something big.",
+    type: "web",
+    subtype: "react",
+    size: "small",
+    techStack: ["Next JS", "tensorflow JS"],
+    github: "https://github.com/Hydra016/Path-Labs",
+    deployed: "https://path-labs.vercel.app/",
+  },
+  {
+    image: "/Edurio.png",
+    title: "Edurio",
+    content:
+      "Edurio helps users to create custom forms easily!, In the initial release the users are limited to create a single form with 2 types of questions i.e. multiple choice and open text.",
+    type: "web",
+    subtype: "vue",
+    size: "small",
+    techStack: ["Vue", "typescript"],
+    github: "https://github.com/Hydra016/Edurio-task",
+    deployed: "https://edurio-task.vercel.app/#/",
+  },
+  {
     image: "/manemp.png",
     title: "Manemp",
     content:
@@ -20,16 +121,16 @@ export const projects: Project[] = [
     github: "https://github.com/Hydra016/Manemp-Client",
   },
   {
-    image: "/pathLabs.png",
-    title: "Path Labs",
+    image: "/Physio.png",
+    title: "Physio AI",
     content:
-      "Built with tensorflow!, enough for you to think there is machine learning involved. Pathlabs helps patients to check the percentage they are proned to heart attack. It has amazing UI and a great potential to be something big.",
+      "A perfect spotter for your physiotherapy. It helps you to do exercise better and improves your form by giving realtime feedback!",
     type: "web",
     subtype: "react",
-    size: "small",
-    techStack: ["Next JS", "tensorflow JS"],
-    github: "https://github.com/Hydra016/Path-Labs",
-    deployed: "https://path-labs.vercel.app/",
+    size: "large",
+    techStack: ["react", "tensorflow JS", "neumorphism CSS"],
+    github: "https://github.com/Hydra016/AI-Physiotherapist",
+    deployed: "https://ai-physiotherapist.vercel.app/",
   },
   {
     image: "/urbanAbode.png",
@@ -42,18 +143,6 @@ export const projects: Project[] = [
     techStack: ["Next JS", "tensorflow JS"],
     github: "https://github.com/Hydra016/urbanAbode",
     deployed: "https://urban-abode-yfz1.vercel.app/",
-  },
-  {
-    image: "/Physio.png",
-    title: "Physio AI",
-    content:
-      "A perfect spotter for your physiotherapy. It helps you to do exercise better and improves your form by giving realtime feedback!",
-    type: "web",
-    subtype: "react",
-    size: "large",
-    techStack: ["react", "tensorflow JS", "neumorphism CSS"],
-    github: "https://github.com/Hydra016/AI-Physiotherapist",
-    deployed: "https://ai-physiotherapist.vercel.app/",
   },
   {
     image: "/VetrinaLive.png",
@@ -183,30 +272,6 @@ export const projects: Project[] = [
     size: "small",
     techStack: ["react native", "firebase", "native base"],
     github: "https://github.com/Hydra016/Software-Engineering-Project",
-  },
-  {
-    image: "/clipster.png",
-    title: "Clipster",
-    content:
-      "AI powered study assistant which generate questions based on the user specific study materials. just upload the text or you pdf book and the AI will generate questions for you to answer!",
-    type: "web",
-    subtype: "react",
-    size: "small",
-    techStack: ["nextJS", "typescript", "bun", "openAI"],
-    github: "https://github.com/Zav141DJacob/hack4ai-clipster",
-    deployed: "https://hack4ai-clipster.vercel.app/intro",
-  },
-  {
-    image: "/Edurio.png",
-    title: "Edurio",
-    content:
-      "Edurio helps users to create custom forms easily!, In the initial release the users are limited to create a single form with 2 types of questions i.e. multiple choice and open text.",
-    type: "web",
-    subtype: "vue",
-    size: "small",
-    techStack: ["Vue", "typescript"],
-    github: "https://github.com/Hydra016/Edurio-task",
-    deployed: "https://edurio-task.vercel.app/#/",
   },
   {
     image: "/Spencer.png",
