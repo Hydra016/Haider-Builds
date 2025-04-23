@@ -67,7 +67,7 @@ const Landing = ({ setInit }: Props) => {
               </div>
               <Link
                 href={
-                  "https://drive.google.com/file/d/1sN5S1QPORuh49rF5NaWz5F7YFsSLdS3m/view?usp=sharing"
+                  "https://drive.google.com/file/d/1bY4Zmc4E_EEMXI6C3DQYHbbWYtNwqIvT/view?usp=sharing"
                 }
                 target="_blank"
               >
