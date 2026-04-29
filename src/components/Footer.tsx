@@ -88,9 +88,6 @@ const Footer = () => {
               >
                 <FaInstagram className="mr-2" />
               </Link>
-              <Link target="_blank" href="https://twitter.com/HaiderMansoor8">
-                <FaXTwitter className="mr-2" />
-              </Link>
             </div>
           </div>
         </div>
