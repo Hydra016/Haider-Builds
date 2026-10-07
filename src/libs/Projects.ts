@@ -29,7 +29,7 @@ export const projects: Project[] = [
     size: "small",
     techStack: ["React", "Chrome Extension"],
     github: "https://github.com/Hydra016/Tweaklify",
-    deployed: "https://tweaklify.vercel.app/",
+    deployed: "https://www.tweaklify.xyz/",
   },
   {
     image: "/clipster.png",
